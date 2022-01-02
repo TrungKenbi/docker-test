@@ -11,4 +11,4 @@ RUN mkdir /app
 
 COPY --from=build /home/gradle/src/build/libs/*.jar /app/server.jar
 
-ENTRYPOINT ["java","-jar","/app/server.jar"]
+ENTRYPOINT ["java","-jar","/app/server.jar","com.trungkenbi.EchoChatMultiServer"]
