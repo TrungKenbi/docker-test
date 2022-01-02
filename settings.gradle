@@ -1,13 +1,2 @@
 rootProject.name = 'DockerTest'
 
-plugins {
-    id 'java'
-}
-
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'com.trungkenbigame.EchoChatMultiServer'
-        )
-    }
-}
